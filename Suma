@@ -1,0 +1,17 @@
+public class Suma {
+
+public static void main (String args[] ) {
+
+String PrimerNumero=
+JOptionPane.ahowInputDialog("Introduzca el primer numero");
+String SegundoNumero=
+JOptionPane.ahowInputDialog("Introduzca el segundo numero");
+
+int numero1 = Integer.parseInt(primerNumero);
+int numero2 = Integer.parseInt(segundoNumero);
+
+int suma = numero1 + numero2;
+
+joptionPane.showMessageDialog(null, "La sauma es:" + suma)
+}
+}
